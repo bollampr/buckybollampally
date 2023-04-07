@@ -1,0 +1,21 @@
+.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 100px; 
+    border: 10px solid #cee8f0;
+    border-radius: 5%;
+    padding: 10px;
+    padding-top: 35px;
+}
+
+.images img:nth-child(9){
+    grid-column: 2 / 4;
+}
+
+.pics_title{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
