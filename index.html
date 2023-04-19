@@ -3,31 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
-<a href="#main">skip to main content</a>
-<nav>
-    <a href="index.html">home</a>
-    <a href="about.html">about</a>
-    <a href="music.html"> music</a>
-    
-</nav>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header> 
+    <div class="logo">
+        <img src="logo.png" alt="roro logo">
+    </div>
+    <nav>
+        <a href="index.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>        
+        <a href="music.html">MUSIC</a>  
+    </nav>
+</header>
+
 <body>
-    <h1 id="main">hi my name is rohit bollampally, my nickname is roro or bucky</h1>
-    <div class="pics_title"><h1>pictures of me</h1></div>
+    <main>
+    <div class="pics_title" id="main"><h1 >ROHIT "BUCKY" BOLLAMPALLY</h1></div>
+    <!-- <div class="pics_title"><h1>pictures of me</h1></div> -->
     <div class='images'>
-    <img src="index_pics/IMG_6577.JPG">
-    <img src="index_pics/IMG_0728.JPG">
-    <img src="index_pics/IMG_1258.JPG">
-    <img src="index_pics/IMG_2063.JPG">
-    <img src="index_pics/IMG_2184.JPG">
-    <img src="index_pics/IMG_2264.JPG">
-    <img src="index_pics/IMG_4725.jpeg">
-    <img src="index_pics/IMG_5589.JPG">
-    <img src="index_pics/IMG_0349.JPG">
+    <img src="index_pics/IMG_6577.JPG" alt="Picture of Rohit with his hair straight">
+    <img src="index_pics/IMG_0728.JPG" alt="Picture of Rohit in the sun">
+    <img src="index_pics/IMG_1258.JPG" alt="Picture of Rohit in the mirror">
+    <img src="index_pics/IMG_2063.JPG" alt="Another picture of Rohit in the mirror">
+    <img src="index_pics/IMG_2184.JPG" alt="Picture of Rohit in a bucket hat">
+    <img src="index_pics/IMG_2264.JPG" alt="Picture of Rohit at his uncle's house">
+    <img src="index_pics/IMG_4725.jpeg" alt="Picture of Rohit in North Carolina">
+    <img src="index_pics/IMG_5589.JPG" alt="Picture of Rohit in the airport">
+    <img src="index_pics/IMG_0349.JPG" alt="Fun picture of Rohit">
     </div>
     
+    <footer>
+        <div class="nav">
+            <a href="index.html" class="active">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="music.html">MUSIC</a>
+        </div>      
+    </footer>
+</main>
 </body>
 </html>
